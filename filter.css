@@ -1,0 +1,162 @@
+#filter{
+    background-color: #e2e2e1;
+    height: 100vh;
+    z-index: -1;
+    position:relative;
+}
+
+#filterContent{
+    width: 12vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buySellButtonsStyle{
+    margin-top: 10vh;
+    float: left;
+    width: 50%;
+    height: 2.5em;
+    background-color: #C8C8C8;
+}
+
+.filterButton{
+    color: white;
+    border: none;
+    font-family: robotoLight;
+    font-size: 2em;
+    border-radius:3px;
+}
+
+#searchButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 170%;
+    width: 70%;
+    height: 2em;
+    background-color: #626262;
+}
+
+button:focus {
+    outline:0;
+}
+
+#buyButton{
+    background-color: #626262;
+}
+
+p{
+    font-family: robotoLight;
+    color: black;
+}
+
+#animalHeader{
+    padding-top: 22vh;
+}
+
+.filterText{
+    font-size: 1.5em;
+}
+
+hr{
+    margin: 10px;
+}
+
+label{
+    padding: 1px;
+    font-family: robotoLight;
+    font-size: 1.3em;
+    color: black;
+    font-weight: normal;
+}
+
+.filterOptionContainerScroll {
+    height: 20vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    width:100%;
+}
+
+.filterOptionContainer{
+    padding-bottom: 35px;
+}
+
+#amount{
+    border: none;
+    background:  #e2e2e1;
+}
+
+#sellText{
+    padding-top: 22vh
+}
+
+#priceHeader{
+    padding-top: 35px;
+}
+
+/*scrollbar styling*/
+.jspHorizontalBar, .jspVerticalBar, .jspTrack {
+    background: #e2e2e1;
+}
+
+.jspDrag
+{
+    background:  #676767;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+    background: #676767;
+}
+
+#createAccount{
+    text-decoration: underline;
+    text-align: left;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    padding-top: 3px;
+}
+
+#createAccountHeader{
+    font-family: "robotoLight";
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.modalHeader{
+    background: #676767;
+}
+
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+#formFill{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#formHeaderIcon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#createAccountButton{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}

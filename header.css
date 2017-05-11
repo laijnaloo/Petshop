@@ -1,0 +1,28 @@
+body{
+    margin:0px;
+    background:#FFF;
+}
+.headerContent {
+    width:100%;
+    position:fixed;
+    top:0px;
+    background-color: #e2e2e1;
+    box-shadow: 1px 3px 5px #d9d9d9;
+    height: 8vh;
+    z-index: 1;
+}
+
+.headerIcons {
+    height: 6vh;
+    margin-top: 1vh;
+}
+
+#headerIcon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shopppingCart{
+    float: right;
+}
